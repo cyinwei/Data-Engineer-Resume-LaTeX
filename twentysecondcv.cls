@@ -147,6 +147,8 @@
 \newcommand{\profilepic}[1]{\renewcommand{\profilepic}{#1}}
 \newcommand{\cvname}[1]{\renewcommand{\cvname}{#1}}
 \newcommand{\cvjobtitle}[1]{\renewcommand{\cvjobtitle}{#1}}
+\newcommand{\cvcitizenship}[1]{\renewcommand{\cvcitizenship}{#1}}
+
 
 % Command for printing the contact information icons
 \newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, fill=mainblue,mainblue,text=white] (char) {#1};}}
@@ -192,7 +194,10 @@
 
     %------------------------------------------------
     
-    {\Large\color{black!80}\cvjobtitle}
+    {\Large\color{black!80}\cvjobtitle}\\
+    {\Small\color{black!80}\cvcitizenship}
+    
+    % {\Large\color{black:80}\aboutme}
 
     %------------------------------------------------
     
